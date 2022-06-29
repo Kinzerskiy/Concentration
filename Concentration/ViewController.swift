@@ -47,8 +47,11 @@ class ViewController: UIViewController {
     }
     
     
+
     @IBOutlet var buttonCollection: [UIButton]!
     @IBOutlet var touchLable: UILabel!
+    
+    
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
         if let buttonIndex = buttonCollection.firstIndex(of: sender)
