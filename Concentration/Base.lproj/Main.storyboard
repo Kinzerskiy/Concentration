@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touches: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzD-q1-M5d">
-                                <rect key="frame" x="116.66666666666669" y="658" width="180.66666666666663" height="35"/>
+                                <rect key="frame" x="116.66666666666667" y="658" width="180.66666666666663" height="35"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,7 +35,6 @@
                                                 <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title=""/>
                                                 <connections>
                                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5o-aY-8Ct"/>
                                                 </connections>
@@ -235,28 +234,16 @@
                     </view>
                     <connections>
                         <outlet property="touchLable" destination="YzD-q1-M5d" id="pP2-pe-q4Y"/>
-                        <outletCollection property="butttonCollection" destination="G0a-Nh-IM6" collectionClass="NSMutableArray" id="uMs-oz-bdh"/>
                         <outletCollection property="buttonCollection" destination="G0a-Nh-IM6" collectionClass="NSMutableArray" id="gsb-bP-5bq"/>
                         <outletCollection property="buttonCollection" destination="gbf-tZ-oF8" collectionClass="NSMutableArray" id="wYO-IJ-GDR"/>
-                        <outletCollection property="butttonCollection" destination="gbf-tZ-oF8" collectionClass="NSMutableArray" id="fvk-9r-OpU"/>
-                        <outletCollection property="butttonCollection" destination="Bjj-6z-N3E" collectionClass="NSMutableArray" id="OzF-Vy-QKf"/>
                         <outletCollection property="buttonCollection" destination="Bjj-6z-N3E" collectionClass="NSMutableArray" id="8Fe-Zs-98t"/>
-                        <outletCollection property="butttonCollection" destination="wF6-II-Zgd" collectionClass="NSMutableArray" id="IQc-6M-7pK"/>
                         <outletCollection property="buttonCollection" destination="wF6-II-Zgd" collectionClass="NSMutableArray" id="bDp-ay-RVe"/>
-                        <outletCollection property="butttonCollection" destination="wJq-0e-l4N" collectionClass="NSMutableArray" id="uId-jb-ko5"/>
-                        <outletCollection property="butttonCollection" destination="xqy-gf-dgk" collectionClass="NSMutableArray" id="Oxj-a7-72o"/>
                         <outletCollection property="buttonCollection" destination="qKv-vF-kAk" collectionClass="NSMutableArray" id="BIm-Dz-b90"/>
                         <outletCollection property="buttonCollection" destination="wJq-0e-l4N" collectionClass="NSMutableArray" id="2Hc-j3-O73"/>
-                        <outletCollection property="butttonCollection" destination="2bh-Hu-L9N" collectionClass="NSMutableArray" id="hsW-0l-jKt"/>
                         <outletCollection property="buttonCollection" destination="2bh-Hu-L9N" collectionClass="NSMutableArray" id="4IT-iZ-Arv"/>
                         <outletCollection property="buttonCollection" destination="xqy-gf-dgk" collectionClass="NSMutableArray" id="ecn-qm-g7x"/>
-                        <outletCollection property="butttonCollection" destination="qKv-vF-kAk" collectionClass="NSMutableArray" id="Kpb-Z2-FT0"/>
-                        <outletCollection property="butttonCollection" destination="iZE-Kh-lRo" collectionClass="NSMutableArray" id="1ga-sV-hbL"/>
                         <outletCollection property="buttonCollection" destination="iZE-Kh-lRo" collectionClass="NSMutableArray" id="QgF-1t-5mk"/>
                         <outletCollection property="buttonCollection" destination="CgI-TK-SCV" collectionClass="NSMutableArray" id="eki-3t-bsq"/>
-                        <outletCollection property="butttonCollection" destination="K5J-8Q-Dqr" collectionClass="NSMutableArray" id="4ks-lh-fyd"/>
-                        <outletCollection property="butttonCollection" destination="CgI-TK-SCV" collectionClass="NSMutableArray" id="FJ8-xT-bPJ"/>
-                        <outletCollection property="butttonCollection" destination="bnn-2I-sb2" collectionClass="NSMutableArray" id="7Rw-UU-qyK"/>
                         <outletCollection property="buttonCollection" destination="K5J-8Q-Dqr" collectionClass="NSMutableArray" id="Cgo-mA-9g6"/>
                         <outletCollection property="buttonCollection" destination="bnn-2I-sb2" collectionClass="NSMutableArray" id="bPX-yd-QBO"/>
                         <outletCollection property="buttonCollection" destination="LP5-hW-r5c" collectionClass="NSMutableArray" id="EjB-jv-4MD"/>
